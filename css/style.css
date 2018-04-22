@@ -1,0 +1,63 @@
+@import url('../css/font.css');
+
+html ,body{
+    height:100%;
+}
+.myheader{
+    width:100%;
+    height:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing:border-box;
+    position: relative;
+    top:0px;
+    border-radius:0px 0px 500px 0px ;
+
+}
+.label{
+    font-family:font-18;
+    font-size:4vh;
+    padding:5px;
+    color:#fff;
+    border-radius:10px;
+}
+
+.myimg{
+    border-radius:100%;
+    border:0px solid #fff;
+    margin-top:-100px;
+    transition:all .3s linear;
+    margin-bottom:20px;
+}
+.myimg:hover{
+    border:20px solid rgba(0,0,0,0);
+}
+
+
+.myheader h1{
+    margin:0px;
+    padding:0px;
+    font-family: font-11 ;
+    background-color:#fff;
+    padding:10px;
+    border-radius:10px;
+}
+.myheader-form{
+    width:100%;
+    height:100%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-box{
+    width:80%;
+    height:450px;
+    background-color:#fff;
+    position:absolute;
+    top:30%;
+}
+
